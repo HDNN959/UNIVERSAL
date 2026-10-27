@@ -3,11 +3,10 @@ using namespace std;
 
 int main(){
 
-    for (int i = 0; i <= 5; i++){
-        for (int j = 0; j <= i; j++){
-            cout << " *";
-        }
-        cout << endl;
-    }
+    int counter = 0;
+    while (counter < 4) {
+        cout << "C++" << endl;
+        counter +=1;
+    } 
     return 0;
 }
