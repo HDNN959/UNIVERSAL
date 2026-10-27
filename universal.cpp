@@ -4,9 +4,9 @@ using namespace std;
 int main(){
 
     int counter = 1;
-    while (counter <= 4) {
+    while (counter <= 6) {
         cout << "C++" << endl;
-        counter ++;
+        counter += 2;
     } 
     return 0;
 }
