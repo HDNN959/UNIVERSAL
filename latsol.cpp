@@ -33,7 +33,7 @@ int main(){
 
     cout << endl;
     cout << "===============" << endl;
-    cout << "   " << desa1.nama << " " << endl;
+    cout << "=   " << desa1.nama << " =" << endl;
     cout << "===============" << endl;
     cout << "Di kepalai oleh: " << desa1.pengurus1.nama << endl;
     cout << "Umur: " << desa1.pengurus1.umur << endl;
@@ -43,7 +43,7 @@ int main(){
     cout << endl;
     
     cout << "===============" << endl;
-    cout << "   " << desa2.nama << " " << endl;
+    cout << "=   " << desa2.nama << " =" << endl;
     cout << "===============" << endl;
     cout << "Di kepalai oleh: " << desa2.pengurus2.nama << endl;
     cout << "Umur: " << desa2.pengurus2.umur << endl;
