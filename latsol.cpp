@@ -3,7 +3,7 @@ using namespace std;
 
 struct kepdes{
     string nama;
-    string umur;
+    int umur;
     string kelamin;
 };
 
@@ -31,7 +31,13 @@ int main(){
     desa2.sejak = 1981;
     desa2.pengurus2 = kepdes2;
 
-    
+    cout << "===============" << endl;
+    cout << "   " << desa1.nama << " " << endl;
+    cout << "===============" << endl;
+    cout << "Di kepalai oleh: " << desa1.pengurus1.nama << endl;
+    cout << "Umur: " << desa1.pengurus1.umur << endl;
+    cout << "Berkelamin: " << desa1.pengurus1.kelamin << endl;
+    cout << "Sudah berdiri sejak: " << desa1.sejak << endl;
 
     return 0;
 }
