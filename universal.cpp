@@ -10,21 +10,31 @@ int main(){
     // } 
 
 
+    // int luas_kandang = 12;
+    // //int nomer_baris = 1;
+    // int total_bulan = 0;
+    // int total_luas_kandang = luas_kandang;
+
+    // while (total_bulan < 10) {
+    //     luas_kandang +=7;
+    //     total_luas_kandang += luas_kandang;
+
+    //     total_bulan +=1;
+    //     //cout << nomer_baris << ": " << luas_kandang << endl;
+    //     //nomer_baris +=1;
+    //     cout << "Total luas kandang: " << total_luas_kandang << " pada bulan ke: " << total_bulan << endl;
+    // }
+
+    int total_kandang = 1;
     int luas_kandang = 12;
-    //int nomer_baris = 1;
-    int total_bulan = 0;
+
     int total_luas_kandang = luas_kandang;
-
-    while (total_bulan < 10) {
-        luas_kandang +=7;
+    while(total_luas_kandang < 800) {
+        luas_kandang += 7;
         total_luas_kandang += luas_kandang;
-
-        total_bulan +=1;
-        //cout << nomer_baris << ": " << luas_kandang << endl;
-        //nomer_baris +=1;
-        cout << "Total luas kandang: " << total_luas_kandang << " pada bulan ke: " << total_bulan << endl;
+        total_kandang += 1;
     }
-
+    cout << total_kandang << " kandang dengan ukuran " << total_luas_kandang << endl;
 
     return 0;
 }
