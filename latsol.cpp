@@ -31,6 +31,7 @@ int main(){
     desa2.sejak = 1981;
     desa2.pengurus2 = kepdes2;
 
+    cout << endl;
     cout << "===============" << endl;
     cout << "   " << desa1.nama << " " << endl;
     cout << "===============" << endl;
@@ -38,6 +39,16 @@ int main(){
     cout << "Umur: " << desa1.pengurus1.umur << endl;
     cout << "Berkelamin: " << desa1.pengurus1.kelamin << endl;
     cout << "Sudah berdiri sejak: " << desa1.sejak << endl;
+    
+    cout << endl;
+    
+    cout << "===============" << endl;
+    cout << "   " << desa2.nama << " " << endl;
+    cout << "===============" << endl;
+    cout << "Di kepalai oleh: " << desa2.pengurus2.nama << endl;
+    cout << "Umur: " << desa2.pengurus2.umur << endl;
+    cout << "Berkelamin: " << desa2.pengurus2.kelamin << endl;
+    cout << "Sudah berdiri sejak: " << desa2.sejak << endl;
 
     return 0;
 }
