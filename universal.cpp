@@ -25,16 +25,26 @@ int main(){
     //     cout << "Total luas kandang: " << total_luas_kandang << " pada bulan ke: " << total_bulan << endl;
     // }
 
-    int total_kandang = 1;
-    int luas_kandang = 12;
+    // int total_kandang = 1;
+    // int luas_kandang = 12;
 
-    int total_luas_kandang = luas_kandang;
-    while(total_luas_kandang < 800) {
-        luas_kandang += 7;
-        total_luas_kandang += luas_kandang;
-        total_kandang += 1;
+    // int total_luas_kandang = luas_kandang;
+    // while(total_luas_kandang < 800) {
+    //     luas_kandang += 7;
+    //     total_luas_kandang += luas_kandang;
+    //     total_kandang += 1;
+    // }
+    // cout << total_kandang << " kandang dengan ukuran " << total_luas_kandang << endl;
+
+    int jantan = 0, betina = 0;
+    int tanggal = 1;
+
+    while(betina <= 10 * jantan) {
+        jantan++;
+        betina += tanggal;
+        tanggal++;
     }
-    cout << total_kandang << " kandang dengan ukuran " << total_luas_kandang << endl;
+    cout << tanggal << endl;
 
     return 0;
 }
