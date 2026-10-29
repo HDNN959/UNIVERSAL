@@ -42,7 +42,9 @@ int main(){
     aktor2.asal = "Bandung";
     aktor2.tahun = 1970;
 
-    
+    film1.pemeran1 = aktor1;
+    film2.pemeran2 = aktor2;
+    film3.pemeran3 = aktor1, aktor2;
 
     // kepdes kepdes1, kepdes2;
     // kepdes1.nama = "Jonathan";
