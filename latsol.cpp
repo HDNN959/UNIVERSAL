@@ -49,7 +49,9 @@ int main(){
     film1.judul = "Stardust Crusader";
     film1.genre = "Petualangan";
     film1.tahun = 2008;
-    
+    film2.judul = "Battle Tendency";
+    film2.genre = "Aksi";
+    film2.tahun = 2005;
 
     // kepdes kepdes1, kepdes2;
     // kepdes1.nama = "Jonathan";
