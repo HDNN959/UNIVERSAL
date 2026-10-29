@@ -46,6 +46,11 @@ int main(){
     film2.pemeran2 = aktor2;
     film3.pemeran3 = aktor1, aktor2;
 
+    film1.judul = "Stardust Crusader";
+    film1.genre = "Petualangan";
+    film1.tahun = 2008;
+    
+
     // kepdes kepdes1, kepdes2;
     // kepdes1.nama = "Jonathan";
     // kepdes1.kelamin = "Laki-laki";
