@@ -26,7 +26,6 @@ struct film {
     int tahun;
     aktor pemeran1;
     aktor pemeran2;
-    aktor pemeran3;
 };
 
 
@@ -44,7 +43,6 @@ int main(){
 
     film1.pemeran1 = aktor1;
     film2.pemeran2 = aktor2;
-    film3.pemeran3 = aktor1, aktor2;
 
     film1.judul = "Stardust Crusader";
     film1.genre = "Petualangan";
@@ -52,10 +50,6 @@ int main(){
     film2.judul = "Battle Tendency";
     film2.genre = "Aksi";
     film2.tahun = 2005;
-    film3.judul = "Fighting Gold";
-    film3.genre = "Kriminal";
-    film3.tahun = 2015;
-
 
     // kepdes kepdes1, kepdes2;
     // kepdes1.nama = "Jonathan";
