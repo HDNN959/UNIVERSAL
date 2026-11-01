@@ -39,19 +39,24 @@ int main(){
     Sepatu = Hitam;
 
     string a;
-    cout << "Pengen tau warna pakaian: ";
-    cin >> a;
-
-    if(a == "Topi"){
-        cout << "Warna Topi Merah";
-    } else if (a == "Kemeja"){
-        cout << "Warna Kemeja Putih";
-    } else if (a == "Celana"){
-        cout << "Warna Celana";
-    } else if (a == "Sepatu"){
-        cout << "Warna Sepatu Hitam";
-    } else {
-        cout << "Sepertinya kamu tidak punya itu" << endl;
+    
+    while (true){
+        cout << "Pengen tau warna pakaian: ";
+        cin >> a;
+        if(a == "Topi"){
+            cout << "Warna Topi Merah" << endl;
+        } else if (a == "Kemeja"){
+            cout << "Warna Kemeja Putih" << endl;
+        } else if (a == "Celana"){
+            cout << "Warna Celana" << endl;
+        } else if (a == "Sepatu"){
+            cout << "Warna Sepatu Hitam" << endl;
+        } else if (a == "Selesai") {
+            cout << "Terimakasih sudah menggunakan program" << endl;
+            break;
+        } else {
+            cout << "sepertinya kamu tidak memiliki pakaian itu" << endl;
+        }
     }
     
     // aktor aktor1, aktor2;
