@@ -32,6 +32,13 @@ using namespace std;
 enum warna {Putih, Hitam, Merah, Biru};
 
 int main(){
+    warna Topi, Kemeja, Celana, Sepatu;
+    Topi = Merah;
+    Kemeja = Putih;
+    Celana = Biru;
+    Sepatu = Hitam;
+
+    
     // aktor aktor1, aktor2;
     // film film1, film2, film3;
     // aktor1.nama = "Giorno";
