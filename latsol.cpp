@@ -44,7 +44,16 @@ int main(){
 
     if(a == "Topi"){
         cout << "Warna Topi Merah";
+    } else if (a == "Kemeja"){
+        cout << "Warna Kemeja Putih";
+    } else if (a == "Celana"){
+        cout << "Warna Celana";
+    } else if (a == "Sepatu"){
+        cout << "Warna Sepatu Hitam";
+    } else {
+        cout << "Sepertinya kamu tidak punya itu" << endl;
     }
+    
     // aktor aktor1, aktor2;
     // film film1, film2, film3;
     // aktor1.nama = "Giorno";
