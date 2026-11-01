@@ -38,7 +38,13 @@ int main(){
     Celana = Biru;
     Sepatu = Hitam;
 
-    
+    string a;
+    cout << "Pengen tau warna pakaian: ";
+    cin >> a;
+
+    if(a == "Topi"){
+        cout << "Warna Topi Merah";
+    }
     // aktor aktor1, aktor2;
     // film film1, film2, film3;
     // aktor1.nama = "Giorno";
