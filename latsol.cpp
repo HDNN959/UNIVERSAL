@@ -14,42 +14,42 @@ using namespace std;
 //     kepdes pengurus2;
 // };
 
-struct aktor {
-    string nama;
-    int tahun;
-    string asal;
-};
+// struct aktor {
+//     string nama;
+//     int tahun;
+//     string asal;
+// };
 
-struct film {
-    string judul;
-    string genre;
-    int tahun;
-    aktor pemeran1;
-    aktor pemeran2;
-};
+// struct film {
+//     string judul;
+//     string genre;
+//     int tahun;
+//     aktor pemeran1;
+//     aktor pemeran2;
+// };
 
 
-
+enum warna {Putih, Hitam, Merah, Biru};
 
 int main(){
-    aktor aktor1, aktor2;
-    film film1, film2, film3;
-    aktor1.nama = "Giorno";
-    aktor1.asal = "Surabaya";
-    aktor1.tahun = 1987;
-    aktor2.nama = "Buciarati";
-    aktor2.asal = "Bandung";
-    aktor2.tahun = 1970;
+    // aktor aktor1, aktor2;
+    // film film1, film2, film3;
+    // aktor1.nama = "Giorno";
+    // aktor1.asal = "Surabaya";
+    // aktor1.tahun = 1987;
+    // aktor2.nama = "Buciarati";
+    // aktor2.asal = "Bandung";
+    // aktor2.tahun = 1970;
 
-    film1.pemeran1 = aktor1;
-    film2.pemeran2 = aktor2;
+    // film1.pemeran1 = aktor1;
+    // film2.pemeran2 = aktor2;
 
-    film1.judul = "Stardust Crusader";
-    film1.genre = "Petualangan";
-    film1.tahun = 2008;
-    film2.judul = "Battle Tendency";
-    film2.genre = "Aksi";
-    film2.tahun = 2005;
+    // film1.judul = "Stardust Crusader";
+    // film1.genre = "Petualangan";
+    // film1.tahun = 2008;
+    // film2.judul = "Battle Tendency";
+    // film2.genre = "Aksi";
+    // film2.tahun = 2005;
 
     // kepdes kepdes1, kepdes2;
     // kepdes1.nama = "Jonathan";
