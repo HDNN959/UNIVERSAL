@@ -10,6 +10,7 @@ using namespace std;
 // };
 
 enum hari {SENIN, SELASA, RABU, KAMIS, JUMAT, SABTU, MINGGU};
+enum level {MUDAH = 1, SEDANG = 3, SULIT = 5, EKSTRIM = 7};
 
 int main(){
     // Hero Alucard;
@@ -34,7 +35,9 @@ int main(){
     // cout << "HP: " << Edith.stat.hp << endl;
 
     hari Today = RABU;
+    level Lvl = SULIT;
     cout << Today << endl;
+    cout << Lvl << endl;
 
 
 
