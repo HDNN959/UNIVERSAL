@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+struct Stat{
+    int attack;
+    int hp;
+};
+
 struct Hero{
     string lane;
     string role;
