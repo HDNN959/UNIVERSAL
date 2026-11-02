@@ -1,117 +1,20 @@
 #include <iostream>
 using namespace std;
 
-// struct kepdes{
-//     string nama;
-//     int umur;
-//     string kelamin;
-// };
-
-// struct desa{
-//     string nama;
-//     int sejak;
-//     kepdes pengurus1;
-//     kepdes pengurus2;
-// };
-
-// struct aktor {
-//     string nama;
-//     int tahun;
-//     string asal;
-// };
-
-// struct film {
-//     string judul;
-//     string genre;
-//     int tahun;
-//     aktor pemeran1;
-//     aktor pemeran2;
-// };
-
-
-enum warna {Putih, Hitam, Merah, Biru};
+struct Hero{
+    string lane;
+    string role;
+};
 
 int main(){
-    warna Topi, Kemeja, Celana, Sepatu;
-    Topi = Merah;
-    Kemeja = Putih;
-    Celana = Biru;
-    Sepatu = Hitam;
+    Hero Alucard;
+    Alucard.lane = "Junggle";
+    Alucard.role = "Assasin";
+    Hero Edith;
+    Edith.lane = "ExpLane";
+    Edith.role = "Fighter";
 
-    string a;
-    
-    while (true){
-        cout << "Pengen tau warna pakaian: ";
-        cin >> a;
-        if(a == "Topi"){
-            cout << "Warna Topi Merah" << endl;
-        } else if (a == "Kemeja"){
-            cout << "Warna Kemeja Putih" << endl;
-        } else if (a == "Celana"){
-            cout << "Warna Celana" << endl;
-        } else if (a == "Sepatu"){
-            cout << "Warna Sepatu Hitam" << endl;
-        } else if (a == "Selesai") {
-            cout << "Terimakasih sudah menggunakan program" << endl;
-            break;
-        } else {
-            cout << "sepertinya kamu tidak memiliki pakaian itu" << endl;
-        }
-    }
-    
-    // aktor aktor1, aktor2;
-    // film film1, film2, film3;
-    // aktor1.nama = "Giorno";
-    // aktor1.asal = "Surabaya";
-    // aktor1.tahun = 1987;
-    // aktor2.nama = "Buciarati";
-    // aktor2.asal = "Bandung";
-    // aktor2.tahun = 1970;
 
-    // film1.pemeran1 = aktor1;
-    // film2.pemeran2 = aktor2;
-
-    // film1.judul = "Stardust Crusader";
-    // film1.genre = "Petualangan";
-    // film1.tahun = 2008;
-    // film2.judul = "Battle Tendency";
-    // film2.genre = "Aksi";
-    // film2.tahun = 2005;
-
-    // kepdes kepdes1, kepdes2;
-    // kepdes1.nama = "Jonathan";
-    // kepdes1.kelamin = "Laki-laki";
-    // kepdes1.umur = 27;
-    // kepdes2.nama = "Lisa";
-    // kepdes2.kelamin = "Perempuan";
-    // kepdes2.umur = 20;
-
-    // desa desa1, desa2;
-    // desa1.nama = "Sukodono";
-    // desa1.sejak = 1995;
-    // desa1.pengurus1 = kepdes1;
-    // desa2.nama = "Sukorame";
-    // desa2.sejak = 1981;
-    // desa2.pengurus2 = kepdes2;
-
-    // cout << endl;
-    // cout << "===============" << endl;
-    // cout << "=   " << desa1.nama << " =" << endl;
-    // cout << "===============" << endl;
-    // cout << "Di kepalai oleh: " << desa1.pengurus1.nama << endl;
-    // cout << "Umur: " << desa1.pengurus1.umur << endl;
-    // cout << "Berkelamin: " << desa1.pengurus1.kelamin << endl;
-    // cout << "Sudah berdiri sejak: " << desa1.sejak << endl;
-    
-    // cout << endl;
-    
-    // cout << "===============" << endl;
-    // cout << "=   " << desa2.nama << " =" << endl;
-    // cout << "===============" << endl;
-    // cout << "Di kepalai oleh: " << desa2.pengurus2.nama << endl;
-    // cout << "Umur: " << desa2.pengurus2.umur << endl;
-    // cout << "Berkelamin: " << desa2.pengurus2.kelamin << endl;
-    // cout << "Sudah berdiri sejak: " << desa2.sejak << endl;
 
     return 0;
 }
