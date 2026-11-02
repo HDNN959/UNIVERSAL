@@ -10,12 +10,10 @@ int main(){
     Hero Alucard;
     Alucard.lane = "Junggle";
     Alucard.role = "Assasin";
+    
+    Hero Edith = {"ExpLane", "Fighter/Mage"};
 
-    Hero Edith;
-    Edith.lane = "ExpLane";
-    Edith.role = "Fighter";
-
-    cout << "===Alucard===" << endl;
+    cout << endl << "===Alucard===" << endl;
     cout << "Lane: " << Alucard.lane << endl;
     cout << "Role: " << Alucard.role << endl;
     cout << endl;
