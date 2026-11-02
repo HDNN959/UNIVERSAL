@@ -10,7 +10,7 @@ using namespace std;
 // };
 
 enum hari {SENIN, SELASA, RABU, KAMIS, JUMAT, SABTU, MINGGU};
-enum level {MUDAH = 1, SEDANG = 3, SULIT = 5, EKSTRIM = 7};
+enum level {MUDAH = 1, SEDANG = 3, SULIT = 5, EKSTRIM = 10};
 
 int main(){
     // Hero Alucard;
@@ -36,8 +36,20 @@ int main(){
 
     hari Today = RABU;
     level Lvl = SULIT;
-    cout << Today << endl;
-    cout << Lvl << endl;
+
+    switch (Today){
+        case SENIN: cout << "Awal Pekan" << endl;
+        break;
+        case RABU: cout << "Tengah Pekan" << endl;
+        break;
+        case JUMAT: cout << "Hampir Libur!" << endl;
+        break;
+        default: cout << "Hari Biasa" << endl;
+        break;
+    }
+    
+    cout << "Hari ini: " << Today << endl;
+    cout << "Kesulitan: " << Lvl << endl;
 
 
 
