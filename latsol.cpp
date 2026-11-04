@@ -4,7 +4,6 @@ using namespace std;
 
 struct Mahasiswa { string nama; string nim; int umur; };
 struct Hero { string nama; int hp; };
-Hero daftar[3] = {"Alucard", 3000, "Alpha", 3450, "Zetian", 2500};
 
 int main(){
     Mahasiswa mhs1;
@@ -18,9 +17,20 @@ int main(){
     cout << "Nama : " << mhs1.nama << endl;
     cout << "NIM  : " << mhs1.nim << endl;
     cout << "Umur : " << mhs1.umur << endl << endl;
-
+    
     cout << "===== SOAL 2.1 =====" << endl;
-
+    Hero daftar[3] = {
+        {"Alucard", 3000}, 
+        {"Alpha", 3450}, 
+        {"Zetian", 2500}
+    };
+    for (int i = 0; i <= 2; i++){
+        cout << daftar[i].nama << " HP: " << daftar[i].hp << endl;
+    }
+    cout << endl;
+    
+    cout << "===== SOAL 2.1 =====" << endl;
+    
 
     
     return 0;
