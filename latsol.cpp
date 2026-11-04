@@ -35,7 +35,16 @@ int main(){
     film1.tahun = 2001;
     film1.aktor = pemeran1;
 
-    cout << film1.aktor.nama << endl;
+    film2.judul = "Stardust Crussader";
+    film2.genre = "Petualangan";
+    film2.tahun = 2008;
+    film2.aktor = pemeran2;
+
+    film3.judul = "Diamond is Unbreakable";
+    film3.genre = "Slice of Life";
+    film3.tahun = 2014;
+    film3.aktor = pemeran1;
+
 
     
 
