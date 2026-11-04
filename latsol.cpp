@@ -35,6 +35,8 @@ int main(){
     film1.tahun = 2001;
     film1.aktor = pemeran1;
 
+    cout << film1.aktor.nama << endl;
+
     
 
 
