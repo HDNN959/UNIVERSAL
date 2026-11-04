@@ -9,10 +9,30 @@ using namespace std;
 //     Stat stat;
 // };
 
-enum hari {SENIN, SELASA, RABU, KAMIS, JUMAT, SABTU, MINGGU};
-enum level {MUDAH = 1, SEDANG = 3, SULIT = 5, EKSTRIM = 10};
+// enum hari {SENIN, SELASA, RABU, KAMIS, JUMAT, SABTU, MINGGU};
+// enum level {MUDAH = 1, SEDANG = 3, SULIT = 5, EKSTRIM = 10};
+
+struct Aktor { string nama; int umur; };
+
+struct Film {
+    string judul;
+    string genre;
+    int tahun;
+    Aktor aktor;
+};
 
 int main(){
+    Aktor pemeran1, pemeran2;
+    Film film1, film2, film3;
+    
+    film1.judul = "Battel tendency";
+    film1.genre = "Pertarungan";
+    film1.tahun = 2001;
+    film1.aktor = pemeran1;
+
+    
+
+
     // Hero Alucard;
     // Alucard.lane = "Junggle";
     // Alucard.role = "Assasin";
@@ -34,22 +54,22 @@ int main(){
     // cout << "Attack: " << Edith.stat.attack << endl;
     // cout << "HP: " << Edith.stat.hp << endl;
 
-    hari Today = RABU;
-    level Lvl = SULIT;
+    // hari Today = RABU;
+    // level Lvl = SULIT;
 
-    switch (Today){
-        case SENIN: cout << "Awal Pekan" << endl;
-        break;
-        case RABU: cout << "Tengah Pekan" << endl;
-        break;
-        case JUMAT: cout << "Hampir Libur!" << endl;
-        break;
-        default: cout << "Hari Biasa" << endl;
-        break;
-    }
+    // switch (Today){
+    //     case SENIN: cout << "Awal Pekan" << endl;
+    //     break;
+    //     case RABU: cout << "Tengah Pekan" << endl;
+    //     break;
+    //     case JUMAT: cout << "Hampir Libur!" << endl;
+    //     break;
+    //     default: cout << "Hari Biasa" << endl;
+    //     break;
+    // } 
     
-    cout << "Hari ini: " << Today << endl;
-    cout << "Kesulitan: " << Lvl << endl;
+    // cout << "Hari ini: " << Today << endl;
+    // cout << "Kesulitan: " << Lvl << endl;
 
 
 
