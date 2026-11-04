@@ -28,8 +28,15 @@ int main(){
         cout << daftar[i].nama << " HP: " << daftar[i].hp << endl;
     }
     cout << endl;
-    
+
     cout << "===== SOAL 2.1 =====" << endl;
+    int idxTerbesar = 0;
+    for (int i = 0; 0 <= 2; i++){
+        if (daftar[i].hp > daftar[idxTerbesar].hp){
+            idxTerbesar = i;
+        }
+    }
+    cout << daftar[idxTerbesar].nama << endl;
     
 
     
