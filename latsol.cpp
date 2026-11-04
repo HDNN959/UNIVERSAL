@@ -7,7 +7,7 @@ struct Mahasiswa {
     int umur; 
 };
 struct Buku { string judul; string penulis; int tahun; };
-
+struct Persegi { int sisi; };
 
 int main(){
     Mahasiswa mhs1;
@@ -34,7 +34,8 @@ int main(){
     cout << "===Buku2===" << endl;
     cout << "Judul    : " << buku2.judul << endl;
     cout << "Penulis  : " << buku2.penulis << endl;
-    cout << "Tahun    : " << buku2.tahun << endl;
+    cout << "Tahun    : " << buku2.tahun << endl << endl;
+    
 
 
 
