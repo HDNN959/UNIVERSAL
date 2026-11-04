@@ -19,13 +19,8 @@ int main(){
     cout << "NIM  : " << mhs1.nim << endl;
     cout << "Umur : " << mhs1.umur << endl << endl;
     
-    Buku buku1, buku2;
-    buku1.judul = "Phantom Blood";
-    buku1.penulis = "Hirohito Araki";
-    buku1.tahun = 1986;
-    buku2.judul = "One Piece";
-    buku2.penulis = "Eiichiro Oda";
-    buku2.tahun = 1997;
+    Buku buku1 = {"Phantom Blood", "Hirogito Araki", 1987};
+    Buku buku2 = {"One Piece", "Eichiro Oda", 1997};
     cout << "=====SOAL 1.2=====" << endl;
     cout << "===Buku1===" << endl;
     cout << "Judul    : " << buku1.judul << endl;
