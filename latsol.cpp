@@ -9,7 +9,7 @@ int main(){
     mhs1.nama = "Joseph Joestar";
     mhs1.nim = "123456789";
     mhs1.umur = 19;
-    cout << =====Mahasiswa===== << endl;
+    cout << "=====Mahasiswa=====" << endl;
     cout << "Nama : " << mhs1.nama << endl;
     cout << "NIM  : " << mhs1.nim << endl;
     cout << "Umur : " << mhs1.umur << endl;
