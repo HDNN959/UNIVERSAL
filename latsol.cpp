@@ -24,7 +24,12 @@ struct Film {
 int main(){
     Aktor pemeran1, pemeran2;
     Film film1, film2, film3;
-    
+
+    pemeran1.nama = "Joseph Joestar";
+    pemeran1.umur = 19;
+    pemeran2.nama = "Jotaro Kujo";
+    pemeran2.umur = 17;
+
     film1.judul = "Battel tendency";
     film1.genre = "Pertarungan";
     film1.tahun = 2001;
