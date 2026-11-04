@@ -35,6 +35,14 @@ int main(){
     cout << "Judul    : " << buku2.judul << endl;
     cout << "Penulis  : " << buku2.penulis << endl;
     cout << "Tahun    : " << buku2.tahun << endl << endl;
+
+    Persegi luas, keliling;
+    luas.sisi = 7 * 7;
+    keliling.sisi = 4 * 7;
+    cout << "=====SOAL 1.3=====" << endl;
+    cout << "Luas sisi     : " << luas.sisi << endl;
+    cout << "Keliling sisi : " << keliling.sisi << endl;
+
     
 
 
