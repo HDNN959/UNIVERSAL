@@ -34,7 +34,7 @@ int main(){
     hero1.stat.hp = hero1.stat.hp - 500;
     cout << hero1.nama << " terkena serang, hp nya menurun menjadi: " << hero1.stat.hp << endl;
     cout << hero1.nama << " HP: " << hero1.stat.hp << endl;
-    int TotalAttack = hero1.stat.hp + hero2.stat.hp;
+    int TotalAttack = hero1.stat.attack + hero2.stat.attack;
     cout << "Total attack " << hero1.nama << " dan " << hero2.nama << " adalah: " << TotalAttack << endl;
     return 0;
 }
