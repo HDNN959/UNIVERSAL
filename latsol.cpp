@@ -5,9 +5,23 @@ int main() {
     // for (int i = 1; i <= 5; i++){
     //     cout << "Perulangan ke-" << i << endl;
     // }
-    int i = 10;
-    while (i < 5){
-        cout << "tida pernah tercetak";
+    
+    // int i = 10;
+    // while (i < 5){
+    //     cout << "tida pernah tercetak";
+    // }
+
+    // for (int i = 1; i <= 10; i++){
+    //     if (i == 5) continue;
+    //     if (i == 8) break;
+    //     cout << "Angka: " << i << endl;
+    // }
+
+    int total = 10;
+    for (int i = 1; i <= 10; i++){
+        total += i;
+        cout << total << endl;
     }
+    cout << "Jumlah total = "<< total << endl;
     return 0;
 }
