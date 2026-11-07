@@ -5,7 +5,7 @@ int main() {
     // for (int i = 1; i <= 5; i++){
     //     cout << "Perulangan ke-" << i << endl;
     // }
-    
+
     // int i = 10;
     // while (i < 5){
     //     cout << "tida pernah tercetak";
@@ -17,11 +17,19 @@ int main() {
     //     cout << "Angka: " << i << endl;
     // }
 
-    int total = 10;
-    for (int i = 1; i <= 10; i++){
-        total += i;
-        cout << total << endl;
+    // int total = 10;
+    // for (int i = 1; i <= 10; i++){
+    //     total += i;
+    //     cout << total << endl;
+    // }
+    // cout << "Jumlah total = "<< total << endl;
+
+    int n = 5;
+    for (int i = 1; i <= 5; i++) {
+        for (int j = 1; j <= i; j++) {
+            cout << "* ";
+        }
+        cout << endl;
     }
-    cout << "Jumlah total = "<< total << endl;
     return 0;
 }
