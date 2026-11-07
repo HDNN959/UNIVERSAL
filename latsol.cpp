@@ -3,8 +3,9 @@ using namespace std;
 
 int main() {
     // for (int i = 1; i <= 5; i++){
-    //     cout << "Perulangan ke-" << i << endl;
+    //     cout << "Perulangan ke-" << i;
     // }
+    // cout << endl;
 
     // int i = 10;
     // while (i < 5){
@@ -24,12 +25,18 @@ int main() {
     // }
     // cout << "Jumlah total = "<< total << endl;
 
-    int n = 5;
-    for (int i = 1; i <= 5; i++) {
-        for (int j = 1; j <= i; j++) {
-            cout << "* ";
-        }
-        cout << endl;
+    // int n = 5;
+    // for (int i = 1; i <= n; i++) {
+    //     for (int j = 1; j <= i; j++) {
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }
+
+    for (int i = 1; i <= 6; i++){
+        if (i == 2) continue;
+        if (i == 5) break;
+        cout << i << " ";
     }
     return 0;
 }
