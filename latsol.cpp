@@ -19,8 +19,13 @@ int main(){
     Hero hero1, hero2;
     hero1 = {"Alucard", "Junggle", 200, 3000};
     hero2 = {"Alpha", "ExpLane", 182, 3600};
-    cout << "=====SOAL 3.1=====" << endl;
+    cout << "=====SOAL 3.2=====" << endl;
     cout << hero1.nama << " | " << hero1.role << " | " << "ATT: " << hero1.stat.attack << " | " << "HP: " << hero1.stat.hp << endl;
-    cout << hero2.nama << " | " << hero2.role << " | " << "ATT: " << hero2.stat.attack << " | " << "HP: " << hero1.stat.hp << endl;
+    cout << hero2.nama << " | " << hero2.role << " | " << "ATT: " << hero2.stat.attack << " | " << "HP: " << hero1.stat.hp << endl << endl;
+    
+    cout << "=====SOAL 3.3=====" << endl;
+    cout << hero1.nama << " HP: " << hero1.stat.hp << endl;
+    cout << hero1.nama << " terkena serang, hp nya menurun menjadi: " << hero1.stat.hp - 500 << endl;
+    cout << hero1.nama << " HP: " << hero1.stat.hp << endl;
     return 0;
 }
