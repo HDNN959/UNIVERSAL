@@ -57,9 +57,35 @@ int main(){
             cout << i << " x "<< n << " = "<< i * n << endl;
             i++;
         }
+        cout << endl;
 
         cout << "=====SOAL 2.3=====" << endl;
-        cout << "=====SOAL 2.4=====" << endl;
+        int jumlah;
+        int Total = 0;
+        int harga;
+        cout << "Masukan jumlah barang: ";
+        cin >> jumlah;
+        for (int j = 1; j <= jumlah; j++){
+            cout << "Harga barang ke-" << j << ": ";
+            cin >> harga;
+            Total += harga;
+        }
+        cout << "Total jumlah barang : " << jumlah << endl;
+        cout << "Total harga         :"  << Total << endl;
+        cout << endl;
 
+        cout << "=====SOAL 2.4=====" << endl;
+        int Jumlah;
+        double ToTal = 0;
+        double nilai;
+        cout << "Jumlah nilai: ";
+        cin >> Jumlah;
+        for (int i = 1; i <= Jumlah; i++){
+            cout << "Nilai ke-" << i << ": ";
+            cin >> nilai;
+            ToTal += nilai;
+        }
+        double rata = ToTal / Jumlah;
+        cout << "Rata-rata: " << rata;
     return 0;
 }
