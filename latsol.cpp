@@ -37,16 +37,29 @@ int main(){
         //     cout << i << " ";
         // }
         // cout << endl << endl;
-
+        
         cout << "=====SOAL 2.1=====" << endl;
         int total = 0;
         for (int i = 1; i <= 30; i++){
             if (i % 5 == 0){
                 total += i;
             }
-
         }
-        cout << total << " " << endl;
+        cout << total << endl;
+        cout << endl;
+
+        cout << "=====SOAL 2.2=====" << endl;
+        int n;
+        cout << "Ketik sebuah angka: ";
+        cin >> n;
+        int i = 1;
+        while (i <= 10){
+            cout << i << " x "<< n << " = "<< i * n << endl;
+            i++;
+        }
+
+        cout << "=====SOAL 2.3=====" << endl;
+        cout << "=====SOAL 2.4=====" << endl;
 
     return 0;
 }
