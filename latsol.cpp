@@ -13,7 +13,29 @@ int main(){
         cout << j << " ";
     }
     cout << endl << endl;
-
+    
     cout << "=====SOAL 1.3=====" << endl;
+    int k = 1;
+    while (k <= 10){
+        cout << k << " ";
+        k++;
+    }
+    cout << endl << endl;
+    
+    cout << "=====SOAL 1.4=====" << endl;
+    int total = 0;
+    for (int i = 1; i <= 20; i++){
+        total += i;
+    }
+    cout << "Jumlah total: " << total << endl;
+    cout << endl << endl;
+
+    cout << "=====SOAL 1.5=====" << endl;
+    for (int i = 1; i <= 15; i++){
+        if (i % 3 == 0) continue;
+        if (i == 12) break;
+        cout << i << " ";
+    }
+
     return 0;
 }
