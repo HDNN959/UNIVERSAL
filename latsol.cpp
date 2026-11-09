@@ -88,43 +88,58 @@ int main(){
             // double rata = ToTal / Jumlah;
             // cout << "Rata-rata: " << rata;
 
-            cout << "=====SOAL 3.1=====" << endl;
-            for (int i = 1; i <= 3; i++){
-                for (int j = 1; j <= 7; j++){
-                    cout << "* ";
-                }
-                cout << endl;
-            }
-            cout << endl;
+            // cout << "=====SOAL 3.1=====" << endl;
+            // for (int i = 1; i <= 3; i++){
+            //     for (int j = 1; j <= 7; j++){
+            //         cout << "* ";
+            //     }
+            //     cout << endl;
+            // }
+            // cout << endl;
 
-            cout << "=====SOAL 3.2=====" << endl;
+            // cout << "=====SOAL 3.2=====" << endl;
+            // int n;
+            // cout << "Masukan nilai n: ";
+            // cin >> n;
+            // for (int i = 1; i <= n; i++){
+            //     for (int j = 1; j <= i; j++){
+            //         cout << "* ";
+            //     }
+            //     cout << endl;
+            // }
+            // cout << endl;
+            
+            // cout << "=====SOAL 3.3=====" << endl;
+            // int x;
+            // cout << "Masukan nilai x: ";
+            // cin >> x;
+            // for (int i = 1; i <= x; i++){
+            //     for (int j = 1; j <= i; j++){
+            //         cout << j << " ";
+            //     }
+            //     cout << endl;
+            // }
+            // cout << endl;
+
+            // cout << "=====SOAL 3.4=====" << endl;
+            // for (int i = 1; i <= 4; i++){
+            //     for (int j = 4; j >= i; j--){
+            //         cout << "* ";
+            //     }
+            //     cout << endl;
+            // }
+            // cout << endl;   
+
+            cout << "=====SOAL 3.5=====" << endl;
             int n;
             cout << "Masukan nilai n: ";
             cin >> n;
             for (int i = 1; i <= n; i++){
-                for (int j = 1; j <= i; j++){
-                    cout << "* ";
+                for (int s = 1; s <= n - i; s++){
+                    cout << " ";
                 }
-                cout << endl;
-            }
-            cout << endl;
-            
-            cout << "=====SOAL 3.3=====" << endl;
-            int x;
-            cout << "Masukan nilai x: ";
-            cin >> x;
-            for (int i = 1; i <= x; i++){
                 for (int j = 1; j <= i; j++){
-                    cout << j << " ";
-                }
-                cout << endl;
-            }
-            cout << endl;
-
-            cout << "=====SOAL 3.3=====" << endl;
-            for (int i = 1; i <= 4; i++){
-                for (int j = 4; j >= i; j--){
-                    cout << "* ";
+                    cout << "*";
                 }
                 cout << endl;
             }
