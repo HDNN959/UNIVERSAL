@@ -131,9 +131,10 @@ int main(){
             // cout << endl;   
 
             cout << "=====SOAL 3.5=====" << endl;
-            int n;
-            cout << "Masukan nilai n: ";
-            cin >> n;
+            // int n;
+            // cout << "Masukan nilai n: ";
+            // cin >> n;
+            int n = 3;
             for (int i = 1; i <= n; i++){
                 for (int s = 1; s <= n - i; s++){
                     cout << " ";
