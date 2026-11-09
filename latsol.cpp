@@ -135,15 +135,28 @@ int main(){
             // cout << "Masukan nilai n: ";
             // cin >> n;
             int n = 4;
-            for (int i = 1; i <= n; i++){
+            for (int i = 1; i < n; i++){
                 for (int s = 1; s <= n - i; s++){
-                    cout << " ";
+                    cout << "  ";
                 }
                 for (int j = 1; j <= (2 * i - 1); j++){
-                    cout << "*";
+                    cout << "* ";
                 }
                 cout << endl;
             }
+            // cout << endl;
+
+            int z = 4;
+            for (int i = 1; i <= z; i++){
+                for (int s = 2; s >= z - i; s--){
+                    cout << "  ";
+                }
+                for (int j = 7; j >= (2 * i - 1); j--){
+                    cout << "* ";
+                }
+                cout << endl;
+            }
+
 
     return 0;
 }
