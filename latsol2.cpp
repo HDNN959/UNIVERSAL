@@ -53,6 +53,16 @@ int main(){
         }
         cout << "Total nilai kado: " << total << endl << endl;
         
-        cout << "=====SOAL 2.1=====" << endl;
+        cout << "=====SOAL 2.2=====" << endl;
+        int n;
+        cout << "Masukan nilai n: ";
+        cin >> n;
+        for (int i = 1; i <= 10; i++){
+            cout << i * n << " ";
+        }
+        cout << endl << endl;
+        
+        cout << "=====SOAL 2.3=====" << endl;
+        
     return 0;
 }
