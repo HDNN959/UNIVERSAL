@@ -63,6 +63,10 @@ int main(){
         cout << endl << endl;
         
         cout << "=====SOAL 2.3=====" << endl;
-        
+        int hitung = 0;
+        for (int i = 1; i <= 30; i++){
+            if (i % 2 == 0) hitung++;
+        }
+        cout << "Jumlah bilangan genap: " << hitung;
     return 0;
 }
