@@ -85,11 +85,14 @@ int main(){
             // cout << "Rata-rata suhu: " << average;
             
     cout << "=====SOAL 3.1=====" << endl;
-    for (int i; i <= 4; i++){
+    for (int i = 1; i <= 4; i++){
         for (int j = 1; j <= 6; j++){
             cout << "# ";
         }
         cout << endl;
     }
+    cout << endl;
+
+    
     return 0;
 }
