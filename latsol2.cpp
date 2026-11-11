@@ -40,11 +40,11 @@ int main(){
         // }
 
 
-        // cout << "=====SOAL 2.1=====" << endl;
-        // int tamu;
-        // int nilai;
-        // int total = 0;
-        // cout << "Masukan jumlah tamu: ";
+    // cout << "=====SOAL 2.1=====" << endl;
+    // int tamu;
+    // int nilai;
+    // int total = 0;
+    // cout << "Masukan jumlah tamu: ";
         // cin >> tamu;
         // for (int i = 1; i <= tamu; i++){
         //     cout << "Nilai tamu ke-" << i << ": ";
@@ -77,11 +77,19 @@ int main(){
         // cout << "Masukan jumlah hari: ";
         // cin >> hari;
         // for (int i = 1; i <= hari; i++){
-        //     cout << "Suhu hari ke " << i << " : ";
-        //     cin >> suhu;
-        //     total_suhu += suhu;
-        // }
-        // average = total_suhu / hari;
-        // cout << "Rata-rata suhu: " << average;
+            //     cout << "Suhu hari ke " << i << " : ";
+            //     cin >> suhu;
+            //     total_suhu += suhu;
+            // }
+            // average = total_suhu / hari;
+            // cout << "Rata-rata suhu: " << average;
+            
+    cout << "=====SOAL 3.1=====" << endl;
+    for (int i; i <= 4; i++){
+        for (int j = 1; j <= 6; j++){
+            cout << "# ";
+        }
+        cout << endl;
+    }
     return 0;
 }
