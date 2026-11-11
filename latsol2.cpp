@@ -73,7 +73,7 @@ int main(){
         int hari;
         double suhu;
         double total_suhu;
-        int average;
+        double average;
         cout << "Masukan jumlah hari: ";
         cin >> hari;
         for (int i = 1; i <= hari; i++){
