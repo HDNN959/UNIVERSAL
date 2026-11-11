@@ -118,7 +118,7 @@ int main(){
     cout << "=====SOAL 3.4=====" << endl;
     int x = 4;
     for (int i = 1; i <= x; i++){
-        for (int s = 3; s >= x - 1; s--){
+        for (int s = 1; s >= x - 1; s++){
             cout << " ";
         }
         for (int j = 1; j <= i; j++){
