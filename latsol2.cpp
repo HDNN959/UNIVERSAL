@@ -67,6 +67,21 @@ int main(){
         for (int i = 1; i <= 30; i++){
             if (i % 2 == 0) hitung++;
         }
-        cout << "Jumlah bilangan genap: " << hitung;
+        cout << "Jumlah bilangan genap: " << hitung << endl << endl;
+
+        cout << "=====SOAL 2.4=====" << endl;
+        int hari;
+        double suhu;
+        double total_suhu;
+        int average;
+        cout << "Masukan jumlah hari: ";
+        cin >> hari;
+        for (int i = 1; i <= hari; i++){
+            cout << "Suhu hari ke " << i << " : ";
+            cin >> suhu;
+            total_suhu += suhu;
+        }
+        average = total_suhu / hari;
+        cout << "Rata-rata suhu: " << average;
     return 0;
 }
