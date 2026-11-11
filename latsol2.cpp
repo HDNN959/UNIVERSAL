@@ -40,48 +40,48 @@ int main(){
         // }
 
 
-        cout << "=====SOAL 2.1=====" << endl;
-        int tamu;
-        int nilai;
-        int total = 0;
-        cout << "Masukan jumlah tamu: ";
-        cin >> tamu;
-        for (int i = 1; i <= tamu; i++){
-            cout << "Nilai tamu ke-" << i << ": ";
-            cin >> nilai;
-            total += nilai;
-        }
-        cout << "Total nilai kado: " << total << endl << endl;
+        // cout << "=====SOAL 2.1=====" << endl;
+        // int tamu;
+        // int nilai;
+        // int total = 0;
+        // cout << "Masukan jumlah tamu: ";
+        // cin >> tamu;
+        // for (int i = 1; i <= tamu; i++){
+        //     cout << "Nilai tamu ke-" << i << ": ";
+        //     cin >> nilai;
+        //     total += nilai;
+        // }
+        // cout << "Total nilai kado: " << total << endl << endl;
         
-        cout << "=====SOAL 2.2=====" << endl;
-        int n;
-        cout << "Masukan nilai n: ";
-        cin >> n;
-        for (int i = 1; i <= 10; i++){
-            cout << i * n << " ";
-        }
-        cout << endl << endl;
+        // cout << "=====SOAL 2.2=====" << endl;
+        // int n;
+        // cout << "Masukan nilai n: ";
+        // cin >> n;
+        // for (int i = 1; i <= 10; i++){
+        //     cout << i * n << " ";
+        // }
+        // cout << endl << endl;
         
-        cout << "=====SOAL 2.3=====" << endl;
-        int hitung = 0;
-        for (int i = 1; i <= 30; i++){
-            if (i % 2 == 0) hitung++;
-        }
-        cout << "Jumlah bilangan genap: " << hitung << endl << endl;
+        // cout << "=====SOAL 2.3=====" << endl;
+        // int hitung = 0;
+        // for (int i = 1; i <= 30; i++){
+        //     if (i % 2 == 0) hitung++;
+        // }
+        // cout << "Jumlah bilangan genap: " << hitung << endl << endl;
 
-        cout << "=====SOAL 2.4=====" << endl;
-        int hari;
-        double suhu;
-        double total_suhu;
-        double average;
-        cout << "Masukan jumlah hari: ";
-        cin >> hari;
-        for (int i = 1; i <= hari; i++){
-            cout << "Suhu hari ke " << i << " : ";
-            cin >> suhu;
-            total_suhu += suhu;
-        }
-        average = total_suhu / hari;
-        cout << "Rata-rata suhu: " << average;
+        // cout << "=====SOAL 2.4=====" << endl;
+        // int hari;
+        // double suhu;
+        // double total_suhu = 0;
+        // double average;
+        // cout << "Masukan jumlah hari: ";
+        // cin >> hari;
+        // for (int i = 1; i <= hari; i++){
+        //     cout << "Suhu hari ke " << i << " : ";
+        //     cin >> suhu;
+        //     total_suhu += suhu;
+        // }
+        // average = total_suhu / hari;
+        // cout << "Rata-rata suhu: " << average;
     return 0;
 }
