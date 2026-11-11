@@ -119,10 +119,10 @@ int main(){
     int x = 4;
     for (int i = 1; i <= x; i++){
         for (int s = 1; s >= x - 1; s++){
-            cout << "  ";
+            cout << " ";
         }
         for (int j = 1; j <= i; j++){
-            cout << "* ";
+            cout << "*";
         }
         cout << endl;
     }
