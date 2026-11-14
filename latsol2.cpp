@@ -84,47 +84,60 @@ int main(){
             // average = total_suhu / hari;
             // cout << "Rata-rata suhu: " << average;
             
-    cout << "=====SOAL 3.1=====" << endl;
-    for (int i = 1; i <= 4; i++){
-        for (int j = 1; j <= 6; j++){
-            cout << "# ";
-        }
-        cout << endl;
-    }
-    cout << endl;
+    // cout << "=====SOAL 3.1=====" << endl;
+    // for (int i = 1; i <= 4; i++){
+    //     for (int j = 1; j <= 6; j++){
+    //         cout << "# ";
+    //     }
+    //     cout << endl;
+    // }
+    // cout << endl;
     
-    cout << "=====SOAL 3.2=====" << endl;
-    int n;
-    cout << "Masukan nilai n: ";
-    cin >> n;
-    for (int i = 1; i <= n; i++){
-        for (int j = 1; j <= i; j++){
-            cout << i << " ";
-        }
-        cout << endl;
-    }
-    cout << endl;
+    // cout << "=====SOAL 3.2=====" << endl;
+    // int n;
+    // cout << "Masukan nilai n: ";
+    // cin >> n;
+    // for (int i = 1; i <= n; i++){
+    //     for (int j = 1; j <= i; j++){
+    //         cout << i << " ";
+    //     }
+    //     cout << endl;
+    // }
+    // cout << endl;
     
-    cout << "=====SOAL 3.3=====" << endl;
-    int z = 5;
-    for (int i = z; i >= 1; i--){
-        for (int j = 1; j <= i; j++){
-            cout << i << " ";
-        }
-        cout << endl;
-    }
-    cout << endl;
+    // cout << "=====SOAL 3.3=====" << endl;
+    // int z = 5;
+    // for (int i = z; i >= 1; i--){
+    //     for (int j = 1; j <= i; j++){
+    //         cout << i << " ";
+    //     }
+    //     cout << endl;
+    // }
+    // cout << endl;
 
     // cout << "=====SOAL 3.4=====" << endl;
     // int x = 4;
     // for (int i = 1; i <= x; i++){
-    //     for (int s = 1; s >= x - 1; s++){
-    //         cout << "  ";
-    //     }
-    //     for (int j = 1; j <= i; j++){
-    //         cout << "* ";
-    //     }
-    //     cout << endl;
-    // }
+        //     for (int s = 1; s >= x - 1; s++){
+            //         cout << " ";
+            //     }
+            //     for (int j = 1; j <= i; j++){
+                //         cout << "*";
+                //     }
+                //     cout << endl;
+                // }
+                
+    cout << "=====SOAL 2=====" << endl;
+    int n;
+    int harga;
+    int total = 0;
+    cout << "Masukan jumlah barang: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++){
+        cout << "Harga barang ke " << i << " : ";
+        cin >> harga;
+        total += harga;
+    }
+    cout << "Total jumlah barang: " << n << ", total harga barang: " << total;
     return 0;
 }
