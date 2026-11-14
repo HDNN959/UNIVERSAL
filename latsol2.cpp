@@ -134,10 +134,11 @@ int main(){
     cout << "Masukan jumlah barang: ";
     cin >> n;
     for (int i = 1; i <= n; i++){
-        cout << "Harga barang ke " << i << " : ";
+        cout << "Harga barang ke-" << i << " : ";
         cin >> harga;
         total += harga;
     }
-    cout << "Total jumlah barang: " << n << ", total harga barang: " << total;
+    cout << "Total jumlah barang: " << n << ", total harga barang: " << total << endl;
+    cout << endl;
     return 0;
 }
