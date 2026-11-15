@@ -160,6 +160,7 @@ int main(){
         cin >> nilai;
         total_nilai += nilai;
     }
+    cout << endl;
     average = total_nilai / mapel;
     cout << "Jumlah pelajaran : " << mapel << endl;
     cout << "Rata-rata        : " << average << endl;
