@@ -131,19 +131,25 @@ int main(){
     int n;
     int harga;
     int total = 0;
+    int total_jumlah_beli;
+    int jumlah_beli;
     cout << "Masukan jumlah barang: ";
     cin >> n;
     for (int i = 1; i <= n; i++){
         cout << "Harga barang ke-" << i << " : ";
         cin >> harga;
-        total += harga;
+        cout << "Jumlah beli : ";
+        cin >> jumlah_beli;
+        total_jumlah_beli = jumlah_beli * harga;
+        total += total_jumlah_beli;
     }
-    cout << "Total jumlah barang: " << n << endl;
-    cout << ", total harga barang: " << total << endl;
+    cout << "\nTotal jumlah barang : " << n << endl;
+    cout << "Total harga barang  : " << total << endl;
     cout << endl;
 
 
     cout << "=====SOAL 3=====" << endl;
+
     
     return 0;
 }
