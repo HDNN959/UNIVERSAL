@@ -149,7 +149,19 @@ int main(){
 
 
     cout << "=====SOAL 3=====" << endl;
-
-    
+    int mapel;
+    int nilai;
+    double average;
+    double total_nilai = 0;
+    cout << "Masukan jumlah mata pelajaran: ";
+    cin >> mapel;
+    for (int i = 1; i <= mapel; i++){
+        cout << "Nilai ke-" << i << ": ";
+        cin >> nilai;
+        total_nilai += nilai;
+    }
+    average = total_nilai / mapel;
+    cout << "Jumlah pelajaran : " << mapel << endl;
+    cout << "Rata-rata        : " << average << endl;
     return 0;
 }
