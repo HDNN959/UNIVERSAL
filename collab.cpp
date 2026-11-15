@@ -8,10 +8,17 @@ struct Mahasiswa { string nama; double nilai; };
 Mahasiswa mhs[3];
 
 int main(){
+    int idxTerbesar = 0;
     cout << "=====BENTUK 1=====" << endl;
     for (int i = 0; i <= 2; i++){
         cout << daftar[i].nama << " HP: " << daftar[i].hp << endl;
     }
+    for (int i = 1; i < 3; i++){
+        if (daftar[i].hp > daftar[idxTerbesar].hp){
+            idxTerbesar = i;
+        }
+    }
+    cout << "HP terbesar adalah "<<daftar[idxTerbesar].nama << endl;
     cout << endl;
     
     cout << "=====BENTUK 2=====" << endl;
@@ -29,6 +36,7 @@ int main(){
     cout << endl << endl;
     
     cout << "=====BENTUK 3=====" << endl;
+
 
     return 0;
 }
