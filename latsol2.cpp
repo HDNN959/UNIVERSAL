@@ -164,5 +164,21 @@ int main(){
     average = total_nilai / mapel;
     cout << "Jumlah pelajaran : " << mapel << endl;
     cout << "Rata-rata        : " << average << endl;
+    cout << endl;
+
+
+    cout << "=====SOAL 4=====" << endl;
+    int x;
+    cout << "Masukan nilai x: ";
+    cin >> x;
+    for (int i = 1; i <= x; i++){
+        for (int s = 1; s <= x - i; s++){
+            cout << " ";
+        }
+        for (int j = 1; j <= (2 * i - 1); j++){
+            cout << "*";
+        }
+        cout << endl;
+    }
     return 0;
 }
