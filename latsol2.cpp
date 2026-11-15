@@ -138,7 +138,12 @@ int main(){
         cin >> harga;
         total += harga;
     }
-    cout << "Total jumlah barang: " << n << ", total harga barang: " << total << endl;
+    cout << "Total jumlah barang: " << n << endl;
+    cout << ", total harga barang: " << total << endl;
     cout << endl;
+
+
+    cout << "=====SOAL 3=====" << endl;
+    
     return 0;
 }
