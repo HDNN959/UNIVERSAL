@@ -15,12 +15,20 @@ int main(){
     cout << endl;
     
     cout << "=====BENTUK 2=====" << endl;
+    double total = 0;
+    double average;
     for (int i = 0; i < 3; i++){
         cout << "Nama Mahasiswa ke-" << i + 1 << ": ";
         cin >> mhs[i].nama;
         cout << "Nilai: ";
         cin >> mhs[i].nilai;
+        total += mhs[i].nilai;
     }
+    average = total / 3;
+    cout << "Nilai rata-rata: " << average;
+    cout << endl << endl;
+    
+    cout << "=====BENTUK 3=====" << endl;
 
     return 0;
 }
