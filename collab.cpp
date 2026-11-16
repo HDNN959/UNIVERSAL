@@ -2,7 +2,7 @@
 using namespace std;
 
 struct Hero { string nama; int hp; };
-Hero daftar[4] = { {"Alucard", 3000}, {"Masha", 3300}, {"Zhuxin", 2400} };
+Hero daftar[3] = { {"Alucard", 3000}, {"Masha", 3300}, {"Zhuxin", 2400} };
 
 struct Mahasiswa { string nama; double nilai; };
 Mahasiswa mhs[3];
@@ -10,7 +10,7 @@ Mahasiswa mhs[3];
 int main(){
     int idxTerbesar = 0;
     cout << "=====BENTUK 1=====" << endl;
-    for (int i = 0; i <= 3; i++){
+    for (int i = 0; i <= 2; i++){
         cout << daftar[i].nama << " HP: " << daftar[i].hp << endl;
     }
     for (int i = 0; i < 3; i++){
